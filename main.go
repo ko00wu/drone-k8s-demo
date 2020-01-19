@@ -16,8 +16,6 @@ func main() {
     })
   })
 
-
-	
   if err := r.Run(":8080"); err != nil {
     logrus.WithError(err).Fatal("Couldn't listen")
   }
